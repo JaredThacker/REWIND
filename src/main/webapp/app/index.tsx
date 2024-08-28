@@ -33,4 +33,6 @@ const render = Component =>
     </ErrorBoundary>,
   );
 
+  // dip was here
+
 render(AppComponent);
