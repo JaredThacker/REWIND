@@ -1,0 +1,35 @@
+{
+  "annotations": {
+    "changelogDate": "20240828160246"
+  },
+  "applications": ["jhipster"],
+  "fields": [
+    {
+      "fieldName": "commentBody",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "authorUserName",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "likes",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "dislikes",
+      "fieldType": "Integer"
+    }
+  ],
+  "name": "Comments",
+  "relationships": [
+    {
+      "otherEntityName": "video",
+      "otherEntityRelationshipName": "comments",
+      "relationshipName": "video",
+      "relationshipSide": "right",
+      "relationshipType": "many-to-one"
+    }
+  ],
+  "searchEngine": "no"
+}

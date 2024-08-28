@@ -1,0 +1,46 @@
+{
+  "annotations": {
+    "changelogDate": "20240828160245"
+  },
+  "applications": ["jhipster"],
+  "fields": [
+    {
+      "fieldName": "title",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "authorUserId",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "videoComments",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "likes",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "dislikes",
+      "fieldType": "Integer"
+    }
+  ],
+  "name": "Video",
+  "relationships": [
+    {
+      "otherEntityName": "comments",
+      "otherEntityRelationshipName": "video",
+      "relationshipName": "comments",
+      "relationshipSide": "left",
+      "relationshipType": "one-to-many"
+    },
+    {
+      "otherEntityName": "userProfile",
+      "otherEntityRelationshipName": "video",
+      "relationshipName": "userProfile",
+      "relationshipSide": "right",
+      "relationshipType": "many-to-one"
+    }
+  ],
+  "searchEngine": "no"
+}

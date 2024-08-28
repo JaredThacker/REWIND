@@ -1,0 +1,30 @@
+
+application {
+  entities *
+}
+
+entity Video {
+ title String
+ authorUserId Long
+ videoComments String
+ likes Integer
+ dislikes Integer
+}
+
+entity Comments {
+ commentBody String
+ authorUserName String
+ likes Integer
+ dislikes Integer
+}
+
+entity UserProfile {
+    userName String required
+    password String required
+    email String
+}
+
+relationship OneToMany {
+  UserProfile to Video
+  Video to Comments
+}

@@ -1,0 +1,33 @@
+{
+  "annotations": {
+    "changelogDate": "20240828160247"
+  },
+  "applications": ["jhipster"],
+  "fields": [
+    {
+      "fieldName": "userName",
+      "fieldType": "String",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "fieldName": "password",
+      "fieldType": "String",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "fieldName": "email",
+      "fieldType": "String"
+    }
+  ],
+  "name": "UserProfile",
+  "relationships": [
+    {
+      "otherEntityName": "video",
+      "otherEntityRelationshipName": "userProfile",
+      "relationshipName": "video",
+      "relationshipSide": "left",
+      "relationshipType": "one-to-many"
+    }
+  ],
+  "searchEngine": "no"
+}
