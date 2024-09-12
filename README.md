@@ -16,9 +16,9 @@ REWIND allows users to stream videos, search for content, and enjoy a seamless m
 
 ## 🔧 **Technologies Used**
 
-- **Frontend:** React, HTML, CSS, JavaScript
+- **Frontend:** Next.js, Tailwind
 - **Backend:** Spring Boot, Java
-- **Database:** PostgreSQL
+- **Database:** MySQL
 - **Cloud Storage:** AWS S3
 - **APIs:** YouTube API
 
