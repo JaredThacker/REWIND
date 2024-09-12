@@ -2,6 +2,12 @@
 
 **REWIND** is a dynamic video library application designed to offer users an exceptional experience in streaming and discovering video content. Developed collaboratively by a team of three, REWIND combines modern technologies and a robust tech stack to deliver an intuitive and feature-rich application.
 
+Contributions: 
+
+[Jonathan Diehl](https://github.com/JWDiehl) ⚡️ [Jared Thacker](https://github.com/JaredThacker) ⚡️ [Diptika Devi](https://github.com/DiptikaD)
+
+Please see the [REWIND-frontend](https://github.com/JWDiehl/REWIND-frontend) repository for the backend code.
+
 ## ⚡️ **Project Overview ⚡️**
 
 REWIND allows users to stream videos, search for content, and enjoy a seamless media experience. The application leverages cutting-edge technologies and integrations to provide a comprehensive video library service. 
@@ -47,3 +53,4 @@ Developed using **Agile** and **Scrum** methodologies, the project emphasized it
 - **Enhanced Functionality:** Integrated the YouTube API to support video streaming, searching, and retrieving video metadata, expanding the application's content capabilities.
 
 # Discover, Watch, REWIND 
+
